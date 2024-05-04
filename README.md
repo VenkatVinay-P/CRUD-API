@@ -8,7 +8,7 @@ This is a backend application for managaing requested tasks.This task is develop
  -SQLite  
 # **Set up**
 ## 1.**Cloning repository**  
-      - git clone https://github.com/VenkatVinay-P/CRUD-API.git
+       git clone https://github.com/VenkatVinay-P/CRUD-API.git
 ## 2.**pip requirements**  
       - pip install flask flask_sqlalchemy
 ## 3.**run the application in cmd**  
