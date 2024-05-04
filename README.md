@@ -12,6 +12,6 @@ This is a backend application for managaing requested tasks.This task is develop
 ## 2.**pip requirements**  
           pip install flask flask_sqlalchemy
 ## 3.**run the application in cmd**  
-1.change the directory where your file is located  
+      1.change the directory where your file is located  
           python app.py
 
