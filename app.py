@@ -6,7 +6,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///persons.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
-# Define Person model
+# defining a class called persons where our required details are mentioned and their types
 class Person(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
@@ -16,8 +16,7 @@ class Person(db.Model):
 
     def __repr__(self):
         return f"<Person {self.id}: {self.name}>"
-
-# Routes for CRUD operations
+        
 @app.route('/persons', methods=['POST'])
 def create_person():
     data = request.json
