@@ -25,7 +25,7 @@ The database model consists of a single table Persons with the following columns
 - **url**: '/persons'
 - **method**: 'GET'
 ## GET PERSON BY ID
-- **url**: '/persons/<person_id>(here we should mwntion the unique identifer(id) for particular person).
+- **url**: '/persons/<person_id>(here we should mention the unique identifer(id) for particular person).
 - **method**: 'GET'
 ## CREATE A NEW PERSON DETAILS
 1. For creating a new detail we have to go to body and choose raw file in mentioned options.And then choose JSON file.Then enter the details.
